@@ -1,0 +1,12 @@
+{
+    "prefix": "a!",
+    "token": "NjY1OTIyOTE2OTY1MTU0ODM3.Xj7Ozw.Ey5TLo1vbfotsyl28erELHJslUA",
+    "creatorTag": "AteMellow-P#5173",
+    "creatorId": "576071248933683250",
+    "botName": "AskBot",
+    "botInviteLink": "https://discordapp.com/api/oauth2/authorize?client_id=665922916965154837&permissions=322624&scope=bot",
+    "questionsChannel": "questions-queue",
+    "embedColorHelp": "0x32cb7d",
+    "embedColorQuestion": "0x7289DA",
+    "serverInvite": "https://discord.gg/26Dfm5e"
+}
