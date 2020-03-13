@@ -32,7 +32,6 @@ client.on('message', message => {
 
 	const args = message.content.split(' ').slice(1);
 	const command = message.content.toLowerCase();
-// const questionChannel = client.channel.find(channel => channel.name === "questionsChannel");
 	const questionChannel = message.guild.channels.find(channel => channel.name === questionsChannel);
 
 	function clean(text) {
@@ -110,7 +109,7 @@ client.on('message', message => {
 	if (command === `${prefix}about`) {
 		const aboutEmbed = new Discord.RichEmbed()
 			.setTitle(`About ${botName}`)
-			.setDescription(`This bot allows you to ask questions and that questions will go to #${questionsChannel} so they can be later replied!\n\nMade by ${creatorTag} using JavaScript's Discord.JS library`)
+			.setDescription(`This bot allows you to ask questions and that questions will go to #${questionsChannel} so they can be later replied!\n\nMade by ${creatorTag} using Node.js's discord.js library.\n\nGithub repository: <https://github.com/AtieP/AskBot/blob/master/>`)
 			.setColor(embedColorHelp)
 			.setThumbnail(client.user.displayAvatarURL);
 		message.channel.send(aboutEmbed);
