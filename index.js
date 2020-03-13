@@ -22,7 +22,7 @@ const { prefix, token, creatorTag, creatorId, botName, botInviteLink, questionsC
 
 client.on('ready', () => {
 	console.log('bot ready!');
-	client.user.setActivity(`Made by Atie.`);
+	client.user.setActivity(`Prefix is: ${prefix}`);
 });
 
 
